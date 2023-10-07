@@ -1,11 +1,11 @@
 import React from 'react'
 import SignIn from './pages/SignIn'
+import './App.css'
 
 export default function App() {
   return (
     <div>
       <SignIn/>
-      fasdfka
     </div>
   
   )
