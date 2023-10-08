@@ -1,24 +1,13 @@
 import React from 'react'
 import SignIn from './pages/SignIn'
-
 import SignUp from './pages/SignUp'
 import UserMain from './pages/UserMain'
-import './App.css'
 import Footer from './components/footer'
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
 
 export default function App() {
   return (
-
-    <div>
-      {/* <SignIn/> */}
-      <Navbar/>
-      <UserMain/>
-      <Footer/>
-    </div>
-  
-
     <Router>
        <div>
         <Navbar/>
