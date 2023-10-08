@@ -1,6 +1,4 @@
 import React from "react";
-
-import '../App.css'
 import './UserMain.css'
 function UserMain(){
     return(

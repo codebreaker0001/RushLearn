@@ -1,20 +1,24 @@
 import React from 'react'
 import SignIn from './pages/SignIn'
-// import NavbarUser from 'RushLearn/rushlearn/src/components/Navbar2.jsx'
+import SignUp from './pages/SignUp'
+import UserMain from './pages/UserMain'
 import './App.css'
-import UserMain from './components/UserMain'
 import Footer from './components/footer'
-import Navbar from './components/Navbar'
+import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import Navbar from './components/Navbar.jsx'
 
 export default function App() {
   return (
-    <div>
-      {/* <SignIn/> */}
-      {/* <NavbarUser/> */}
-      <Navbar/>
-      <UserMain/>
-      <Footer/>
-    </div>
-  
+    <Router>
+       <div>
+        <Navbar/>
+        <Footer />
+      </div>
+      <Routes>
+        <Route exact path='/' element={<SignIn/>}></Route>
+        <Route exact path = '/userProfile' element={<UserMain/>}></Route>
+        <Route exact path='/signUp' element={<SignUp/>}></Route>
+      </Routes>
+    </Router>
   )
 }
