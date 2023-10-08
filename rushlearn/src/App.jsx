@@ -6,6 +6,7 @@ export default function App() {
   return (
     <div>
       <SignIn/>
+      my name is vaibhav singh
     </div>
   
   )
