@@ -4,12 +4,14 @@ import NavbarUser from '/Users/vaibhavsingh/RushLearn/rushlearn/src/components/N
 import './App.css'
 import UserMain from './components/UserMain'
 import Footer from './components/footer'
+import Navbar from './components/Navbar'
 
 export default function App() {
   return (
     <div>
       {/* <SignIn/> */}
-      <NavbarUser/>
+      {/* <NavbarUser/> */}
+      <Navbar/>
       <UserMain/>
       <Footer/>
     </div>

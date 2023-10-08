@@ -1,0 +1,12 @@
+.container{
+    height: 90vh;
+    /* border: 2px solid ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}

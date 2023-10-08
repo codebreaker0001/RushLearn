@@ -1,28 +1,30 @@
 import React from "react";
 
 import '../App.css'
-
+import './UserMain.css'
 function UserMain(){
     return(
         <>
+        <div className="container">
              <main>
         <div class="card">
-            <img src="notes.jpg" alt="Notes"/>
+            <img src="../../public/images/pencil.png" alt="Notes"/>
             <h2>Notes</h2>
         </div>
         <div class="card">
-            <img src="assignments.jpg" alt="Assignments"/>
+            <img src="../../public/images/assignment.png" alt="Assignments"/>
             <h2>Assignments</h2>
         </div>
         <div class="card">
-            <img src="papers.jpg" alt="Past Year Papers"/>
+            <img src="../../public/images/exam.png" alt="Past Year Papers"/>
             <h2>Past Year Papers</h2>
         </div>
         <div class="card">
-            <img src="videos.jpg" alt="Videos"/>
+            <img src="../../public/images/video.png" alt="Videos"/>
             <h2>Videos</h2>
         </div>
     </main>
+    </div>
         </>
     )
 }

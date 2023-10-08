@@ -1,12 +1,11 @@
-import React from "react";
-
+import React from 'react'
 import '../App.css'
-
-function Footer(){
-    <>
-    <footer>
-        <p>&copy; 2023 Your Study App</p>
-    </footer>
-    </>
+export default function footer() {
+  return (
+    <div>
+        <footer>
+            <p>&copy; 2023 Made in Rush</p>
+        </footer>
+    </div>
+  )
 }
-export default Footer ;

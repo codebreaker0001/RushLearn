@@ -72,7 +72,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-    height : 40vw ;
+    /* height : 40vw ; */
     background-color: #F5F5F5;
 }
 
@@ -105,8 +105,14 @@ main {
 
 /* Style the footer text */
 footer {
-    background-color: #007BFF; /* Change to the color you prefer */
+    background-color: #1f1f1f; /* Change to the color you prefer */
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
+    /* height: 50px; */
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* color: #1f1f1f; */
 }
