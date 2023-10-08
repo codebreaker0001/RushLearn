@@ -30,6 +30,5 @@ export default function App() {
         <Route exact path='/signUp' element={<SignUp/>}></Route>
       </Routes>
     </Router>
->>>>>>> 178c1ba3595627b988050b50936e7c8a37e1b210
   )
 }
