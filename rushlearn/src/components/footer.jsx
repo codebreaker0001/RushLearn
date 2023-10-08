@@ -1,6 +1,6 @@
 import React from "react";
 
-import '/home/techsavvy/RushLearn/rushlearn/src/App.css'
+import '../App.css'
 
 function Footer(){
     <>
