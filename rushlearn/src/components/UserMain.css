@@ -10,3 +10,17 @@ main{
     height: 100%;
     width: 100%;
 }
+
+.card {
+    height: 211px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:active{
+    transform: scale(0.97);
+
+
+}
