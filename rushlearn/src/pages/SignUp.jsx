@@ -1,23 +1,22 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import './SignIn.css';
+import './SignUp.css';
 import Navbar from '../components/Navbar';
-export default function SignIn() {
+export default function SignUp() {
   
-  return ( 
-
+  return (
     <div>
-        <form action="/userProfile">
-          <h1>Who Are You?</h1>
+        <form action="#">
+          <h1>Register</h1>
           <input type="number" max="99999999" placeholder='Enter Your Enrollment Number'/>
           <input type="password" placeholder='Enter Your password'/>
+          <input type="password" placeholder='Confirm Your Password'/>
           <div className="btnbox">
-              <button type='Submit' className="btn">Submit </button>
-              <Link to='/signUp'><button id ='signIn' className="btn btnn">SignUp</button></Link>
+            <Link to='/userProfile'>
+              <button type='Submit' className="btn">Register</button>
+            </Link>
           </div>
         </form>
-        
     </div>
-    
   )
 }

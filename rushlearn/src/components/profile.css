@@ -1,0 +1,7 @@
+.navContainer .iitrlogo{
+
+    height: 60px;
+    width: 60px;
+    background: url('../../public/images/iit-roorkee-logo.') no-repeat center center/cover;
+    justify-self: flex-end;
+}
